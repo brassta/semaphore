@@ -1,7 +1,14 @@
-function updateSemaphore(){
+export function  updateSemaphore(){
     return{
-        type:'UPDATE_SEMAPHORE',
+        type:'UPDATE_SEMAPHORE'
     }
 }
 
-export default updateSemaphore;
+
+export function  setSemaphoreState(nextState){
+    return{
+        type:'SET_SEMAPHORE_STATE',
+        nextState
+    }
+}
+
