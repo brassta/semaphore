@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  .semaphore{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2vw;
+    .light{
+      width: 11.5vw;
+      height: 11.5vw;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background-color: red;
+    }
+    .light.active{
+      background-color: green;
+    }
+  }
+}
+
+
